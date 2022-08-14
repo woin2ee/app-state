@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import OSLog
 
 final class MainViewController: UIViewController {
     
@@ -17,10 +18,8 @@ final class MainViewController: UIViewController {
     }
     
     func startTimer() {
-        var count: Int = 0
         timer = .scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
-            count += 1
-            print(count)
+            os_log("Running...", log: .test)
         }
     }
 }

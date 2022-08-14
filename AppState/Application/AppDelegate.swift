@@ -6,18 +6,19 @@
 //
 
 import UIKit
+import OSLog
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        print("willFinishLaunching")
+        os_log("willFinishLaunching", log: .test)
         return true
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print("didFinishLaunching")
+        os_log("didFinishLaunching", log: .test)
         return true
     }
     
