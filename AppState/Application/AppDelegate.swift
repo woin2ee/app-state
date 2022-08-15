@@ -12,14 +12,18 @@ import OSLog
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        Logger.test.notice("willFinishLaunching")
+        Logger.test.notice("applicationWillFinishLaunching")
         return true
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Logger.test.notice("didFinishLaunching")
+        Logger.test.notice("applicationDidFinishLaunching")
         return true
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        Logger.test.notice("applicationWillTerminate")
     }
     
     // MARK: UISceneSession Lifecycle
