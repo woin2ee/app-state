@@ -18,8 +18,11 @@ final class MainViewController: UIViewController {
     }
     
     func startTimer() {
+        var count: Int = 0
         timer = .scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
-            os_log("Running...", log: .test)
+            count += 1
+            let osLogMessage = "Running count(\(count))"
+            os_log(.default, log: .test, "%@", osLogMessage)
         }
     }
 }
