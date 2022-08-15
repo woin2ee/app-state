@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    // foreground 상태에서 사용자에 의해 직접 종료될 때만 호출됨.
     func applicationWillTerminate(_ application: UIApplication) {
         Logger.test.notice("applicationWillTerminate")
     }
