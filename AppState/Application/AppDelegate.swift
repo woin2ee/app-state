@@ -12,13 +12,13 @@ import OSLog
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        os_log("willFinishLaunching", log: .test)
+        Logger.test.notice("willFinishLaunching")
         return true
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        os_log("didFinishLaunching", log: .test)
+        Logger.test.notice("didFinishLaunching")
         return true
     }
     

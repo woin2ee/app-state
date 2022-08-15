@@ -21,8 +21,7 @@ final class MainViewController: UIViewController {
         var count: Int = 0
         timer = .scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
             count += 1
-            let osLogMessage = "Running count(\(count))"
-            os_log(.default, log: .test, "%@", osLogMessage)
+            Logger.test.notice("Running count(\(count))")
         }
     }
 }

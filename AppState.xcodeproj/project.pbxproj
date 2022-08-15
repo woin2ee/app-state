@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E844ADE628A91605006E2FA9 /* OSLog+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844ADE528A91605006E2FA9 /* OSLog+.swift */; };
+		E844ADE628A91605006E2FA9 /* Logger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E844ADE528A91605006E2FA9 /* Logger+.swift */; };
 		E898856E28A517E800D1CAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898856D28A517E800D1CAA2 /* AppDelegate.swift */; };
 		E898857028A517E800D1CAA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898856F28A517E800D1CAA2 /* SceneDelegate.swift */; };
 		E898857228A517E800D1CAA2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898857128A517E800D1CAA2 /* MainViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E844ADE528A91605006E2FA9 /* OSLog+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSLog+.swift"; sourceTree = "<group>"; };
+		E844ADE528A91605006E2FA9 /* Logger+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+.swift"; sourceTree = "<group>"; };
 		E898856A28A517E800D1CAA2 /* AppState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E898856D28A517E800D1CAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E898856F28A517E800D1CAA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		E844ADE428A915D2006E2FA9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				E844ADE528A91605006E2FA9 /* OSLog+.swift */,
+				E844ADE528A91605006E2FA9 /* Logger+.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				E898857228A517E800D1CAA2 /* MainViewController.swift in Sources */,
 				E898856E28A517E800D1CAA2 /* AppDelegate.swift in Sources */,
-				E844ADE628A91605006E2FA9 /* OSLog+.swift in Sources */,
+				E844ADE628A91605006E2FA9 /* Logger+.swift in Sources */,
 				E898857028A517E800D1CAA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
