@@ -1,2 +1,1 @@
-# app-state
-앱의 상태 변화에 따라 코드 실행을 테스트
+# background-task-completion-example
